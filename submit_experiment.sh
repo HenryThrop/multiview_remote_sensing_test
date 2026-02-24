@@ -13,13 +13,15 @@
 # 1. ACTIVATE YOUR ENVIRONMENT HERE
 # (e.g., module load Anaconda3, conda activate my_env)
 # ==========================================
-# YOUR COMMANDS GO HERE
+module purge
+module load Anaconda3
+source activate kidsat
 
 
 # ==========================================
 # 2. NAVIGATE TO THE REPOSITORY ROOT
 # ==========================================
-# Make sure to change this to your actual folder path!
+# Make sure to change to  actual folder path!
 cd /path/to/your/MLGlobalHealth/multiview_remote_sensing/
 
 
